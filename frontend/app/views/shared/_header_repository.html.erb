@@ -1,0 +1,4 @@
+<% if ArchivesSpaceHelp.enabled? %>
+          <li><%= link_to_help :link_opts => {"data-placement" => (session[:user] ? "left" : "bottom")} %></li>
+          <li><%= link_to(‘Templates’, '/welcome/index.html.erb' %></li>
+        <% end %>
